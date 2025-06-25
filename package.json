@@ -1,0 +1,39 @@
+{
+  "name": "@mohsensami/loading-skeleton",
+  "version": "0.0.1",
+  "private": false,
+  "description": "",
+  "type": "module",
+  "main": "./dist/loadingSkeleton.umd.js",
+  "module": "./dist/loadingSkeleton.es.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/loadingSkeleton.es.js",
+      "require": "./dist/loadingSkeleton.umd.js"
+    }
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "prepare": "npm run build"
+  },
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "react-dom": ">=16.8.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.1.2",
+    "@types/react-dom": "^19.1.2",
+    "@vitejs/plugin-react-swc": "^3.9.0",
+    "typescript": "^5.2.2",
+    "vite": "^6.3.5",
+    "vite-plugin-dts": "^3.6.3",
+    "vite-plugin-lib-inject-css": "^2.2.2"
+  }
+}
