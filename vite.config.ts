@@ -16,7 +16,7 @@ export default defineConfig({
     lib: {
       entry: resolve(__dirname, "src/index.ts"),
       name: "MohsensamiLoadingSkeleton",
-      fileName: (format) => `modal.${format}.js`,
+      fileName: (format) => `loadingSkeleton.${format}.js`,
     },
     rollupOptions: {
       external: ["react", "react-dom"],
