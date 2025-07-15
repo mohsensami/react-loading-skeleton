@@ -1,6 +1,6 @@
 {
   "name": "@mohsensami/loading-skeleton",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A simple React loading skeleton component",
   "type": "module",
   "private": false,
