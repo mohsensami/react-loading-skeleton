@@ -41,13 +41,22 @@ const App = () => {
   return (
     <div>
       <h1>My App</h1>
+      {/* Default color */}
       {isLoading ? <LoadingSkeleton /> : <div>Content Loaded!</div>}
+      {/* Custom color */}
+      {isLoading ? <LoadingSkeleton color="#ff8000" /> : null}
     </div>
   );
 };
 
 export default App;
 ```
+
+## Props
+
+| Name  | Type   | Default   | Description                        |
+| ----- | ------ | --------- | ---------------------------------- |
+| color | string | `#e0e0e0` | Background color of skeleton bars. |
 
 ## Styling
 
