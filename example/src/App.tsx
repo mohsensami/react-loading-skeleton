@@ -17,7 +17,7 @@ const App: React.FC = () => {
     <div className="App">
       <h1>My App</h1>
       {isLoading ? (
-        <LoadingSkeleton />
+        <LoadingSkeleton color="#ff8000" />
       ) : (
         <div>
           <p>Content Loaded!</p>
